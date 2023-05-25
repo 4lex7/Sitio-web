@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <title>Giant Landing Page</title>
+    <link rel="stylesheet" href="CSS/style.css">
+  </head>
+  <body>
+    <div class="contenedor_loader">
+      <div class="loader"></div>
+    </div>
+  
+  <header>
+    <div class="left-side">
+        <a href="#"> <img src="img/giant-logo-1.svg"> </a>
+    </div>
+    <div class="right-side">
+      <div class="nav-link-wrapper"> <a href="index.html">  <span onmouseover="this.classList.add('underline');" onmouseout="this.classList.remove('underline');">Inicio</span></a> </div>
+      <div class="nav-link-wrapper"> <a href="productos.html">  <span onmouseover="this.classList.add('underline');" onmouseout="this.classList.remove('underline');">Productos</span></a> </div>
+      <div class="nav-link-wrapper"> <a href="perfil.html">  <span onmouseover="this.classList.add('underline');" onmouseout="this.classList.remove('underline');">Perfil</span></a> </div>
+    </div>
+    </header>
+
+    <div class="container">
+
+    <div class="left-side">
+        <h1>No es cualquier bicicleta es una<br>
+        <span class = "blue"> Giant!</span>
+        </h1>
+        <p>Giant Manufacturing Co.Ltd. 
+            es una compañia dedicada a la elaboració de bicicletas.
+            Establecida en 1972 en Taiwaám, Giant comenzo como productora OEM.
+            con struyendo bicicletas para ser vendidas con otros nombres. 
+            Al poco tiempo establecio su propia marca.</p>
+        <a href="">Mas información</a>
+    </div>
+    <div class="right-side">
+                <img src="img/img.png" alt="" class = "Giant">
+                <div class="box">
+                <a href="#"> <img class = "facebook" src="img/facebook.png" alt=""></a>
+                <a href="#"> <img src="img/instagram.png" alt=""></a>
+                <a href="#"> <img src="img/twitter.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <div class="thumb">
+    <a href = "#bottom"><img id = "bottom" src="img/thumb1.png" onclick="imgSlider('img/img.png');"> </a>
+    <a href="#bottom"><img src="img/thumb2.png" onclick="imgSlider ('img/img2.png');"> </a>
+    <a href="#bottom"><img src="img/thumb3.png" onclick="imgSlider ('img/img3.png');"> </a>
+    </div>
+
+    <script src = "JS/script.js">
+    </script>
+  </body>
+</html>
